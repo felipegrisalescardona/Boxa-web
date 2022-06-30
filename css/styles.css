@@ -404,6 +404,20 @@ p {
     padding-top: 10%;
   }
 }
+section.leadership-section img {
+  padding: 0 !important;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+@media (max-width: 768px) {
+  section.leadership-section img {
+    padding: 0px 10px !important;
+    margin-top: 20px;
+  }
+}
 /* Become a partner section */
 .become-partner-sec {
   background: rgb(251, 194, 61);
@@ -464,6 +478,22 @@ p {
   padding-bottom: 0;
 }
 /* Footer Section */
+footer {
+  background: rgb(7, 78, 62);
+  background: linear-gradient(
+    90deg,
+    rgba(7, 78, 62, 1) 0%,
+    rgba(1, 29, 23, 1) 100%
+  );
+  padding: 70px 0px;
+  border-top: 8px solid var(--color-yellow-boxa);
+}
+footer h3 {
+  font-family: var(--principal-font);
+  font-size: 1.25rem;
+  color: white;
+  font-weight: bold;
+}
 .text-container-footer h4 {
   position: relative;
   font-family: var(--principal-font);
@@ -472,7 +502,13 @@ p {
   color: white;
   z-index: 1;
 }
+footer .row.padding-section {
+  align-items: top;
+}
 .text-container-footer {
+  position: relative;
+}
+.community-footer {
   position: relative;
 }
 .text-container-footer span {
@@ -480,7 +516,58 @@ p {
   width: 112px;
   display: block;
   position: absolute;
-  bottom: 1px;
+  bottom: 2px;
   left: 27px;
   z-index: 0;
+}
+footer a {
+  font-size: 0.875rem;
+}
+footer a,
+footer a:visited {
+  color: var(--color-yellow-boxa);
+}
+footer a:hover {
+  color: white;
+}
+footer .yellow-line-boxa {
+  position: absolute;
+  top: -15px;
+}
+footer .row .col-6:last-child h3 {
+  padding-top: 20px;
+}
+footer .row .col-6 h3 {
+  margin-bottom: 0px;
+}
+footer .padding-section div.col-12:not(:first-child) {
+  margin-top: 2%;
+}
+footer .join-button img {
+  position: relative;
+  bottom: 0.2rem;
+}
+@media (max-width: 768px) {
+  .container-fluid .padding-section .col-12 {
+    margin: auto;
+  }
+  footer .yellow-line-boxa {
+    display: none;
+  }
+  footer.container-fluid .row div.col-12 {
+    text-align: center;
+  }
+  .text-container-footer span {
+    display: none;
+  }
+}
+@media (max-width: 1420px) and (min-width: 768px) {
+  footer .row.padding-section {
+    padding-left: 200px;
+  }
+}
+@media (min-width: 1420px) and (max-width: 1660px) {
+  .padding-section {
+    padding-right: 150px;
+  }
 }
