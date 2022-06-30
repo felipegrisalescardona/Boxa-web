@@ -77,13 +77,15 @@ a.nav-link {
   padding-right: 1.875rem;
   font-family: var(--principal-font);
 }
+.nav-item a:hover {
+  color: var(--color-yellow-boxa);
+}
 
 /* Banner Section */
 .boxa-invest-future {
   background-image: url(/img/banner-background-invest-in-boxa.png);
   background-repeat: no-repeat;
   background-position: center;
-  /* height: 82vh; */
 }
 .text-banner {
   padding-top: 17%;
@@ -192,9 +194,6 @@ a.nav-link {
 img[alt="Telegram"] {
   position: relative;
   bottom: 3px;
-}
-.nav-item a:hover {
-  color: var(--color-yellow-boxa);
 }
 /* discover text section */
 .discover-section {

@@ -1,0 +1,194 @@
+:root {
+  --principal-font: "Candara";
+  --color-yellow-boxa: #fbc23d;
+  --color-green-button: #021b14;
+  --color-green-background: #0d1612;
+  --color-green-decoration: #138e68;
+}
+p {
+  font-family: var(--principal-font);
+  font-size: 0.875rem;
+}
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+body {
+  padding: 0;
+  margin: 0;
+}
+h1,
+h2 {
+  font-family: var(--principal-font);
+  color: white !important;
+  font-weight: bold !important;
+  font-size: 3.68rem !important;
+}
+@media (max-width: 400px) {
+  h2,
+  h1 {
+    font-size: 2.4em !important;
+  }
+}
+
+/* Superior Bar */
+@media (min-width: 1420px) {
+  nav {
+    padding-left: 300px !important;
+    padding-right: 300px !important;
+  }
+}
+nav {
+  box-shadow: 0px 6px 0px #00000029;
+  background: rgb(7, 78, 62);
+  background: linear-gradient(
+    90deg,
+    rgba(7, 78, 62, 1) 0%,
+    rgba(1, 29, 23, 1) 100%
+  );
+}
+.navbar-collapse {
+  justify-content: flex-end;
+}
+.navbar-brand img {
+  position: relative;
+  bottom: 4px;
+}
+.navbar-brand span {
+  font-family: var(--principal-font);
+  font-weight: bold;
+  padding: 0.5rem;
+  font-size: 2.188rem;
+  position: relative;
+  top: 4px;
+  color: white;
+  padding-left: 34px;
+}
+.boxa-logo {
+  width: 60px;
+  height: 52px;
+}
+a.nav-link {
+  font-size: 1.25rem;
+  color: white;
+}
+.nav-item {
+  padding-left: 30px;
+  padding-right: 1.875rem;
+  font-family: var(--principal-font);
+}
+.nav-item a:hover {
+  color: var(--color-yellow-boxa);
+}
+/* Top banner */
+.boxa-top-banner {
+  background-image: url(/img/img_tokenomics-background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+@media (min-width: 769px) {
+  .boxa-top-banner {
+    min-height: 673px;
+  }
+}
+.text-banner {
+  padding-top: 17%;
+  position: relative;
+}
+.text-banner h1 {
+  font-family: var(--principal-font);
+  color: white;
+  font-weight: bold;
+  letter-spacing: 0px;
+  font-size: 6.81rem !important;
+  position: relative;
+  left: -6px;
+  top: -18px;
+}
+.text-banner h2 {
+  position: relative;
+  bottom: 40px;
+  z-index: 1;
+}
+.green-line-boxa {
+  display: block;
+  border-top: 27px solid var(--color-green-decoration);
+  width: 231px;
+  position: relative;
+  left: 130px;
+  bottom: 85px;
+  z-index: 0;
+}
+@media (max-width: 590px) {
+  .green-line-boxa {
+    display: none;
+  }
+}
+@media (min-width: 1420px) {
+  .container-box {
+    width: 83%;
+    margin-left: 300px !important;
+    margin-right: 300px !important;
+  }
+}
+.container-box {
+  position: relative;
+  width: 100%;
+}
+.join-buttons-section {
+  position: absolute;
+  bottom: -30px;
+  right: 0;
+  display: flex;
+  background-color: var(--color-green-background);
+  align-items: center;
+}
+@media (max-width: 768px) {
+  .join-buttons-section {
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+  }
+  .join-button {
+    margin-right: 0 !important;
+  }
+}
+.yellow-line-boxa {
+  display: block;
+  border-top: 7px solid var(--color-yellow-boxa);
+  width: 53px;
+}
+.join-buttons-section h3 {
+  font-family: var(--principal-font);
+  color: white;
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-left: 19px;
+  margin-right: 30px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.join-button {
+  background-color: var(--color-yellow-boxa);
+  border-radius: 3px;
+  color: var(--color-green-button);
+  font-family: var(--principal-font);
+  font-size: 1.875rem;
+  font-weight: bold;
+  border: none;
+  padding: 4px 20px;
+  margin-top: 6px;
+  margin-bottom: 11px;
+  margin-right: 20px;
+}
+.join-button img {
+  padding-right: 10px;
+}
+img[alt="Telegram"] {
+  position: relative;
+  bottom: 3px;
+}
+.navbar a.nav-link.active {
+  color: white;
+  font-weight: bold;
+}
