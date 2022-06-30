@@ -193,6 +193,9 @@ img[alt="Telegram"] {
   position: relative;
   bottom: 3px;
 }
+.nav-item a:hover {
+  color: var(--color-yellow-boxa);
+}
 /* discover text section */
 .discover-section {
   background-color: var(--color-green-background);
