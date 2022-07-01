@@ -192,3 +192,209 @@ img[alt="Telegram"] {
   color: white;
   font-weight: bold;
 }
+/* Content Section */
+.content-section {
+  background-color: var(--color-green-background);
+}
+.content-section p {
+  color: white;
+}
+.general-container {
+  padding-top: 140px;
+  padding-bottom: 140px;
+}
+.general-container h3 {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: white;
+}
+@media (min-width: 1400px) {
+  .padding-section-300 {
+    padding-left: 180px !important;
+    padding-right: 180px !important;
+  }
+}
+@media (min-width: 1600px) {
+  .padding-section-300 {
+    padding-left: 300px !important;
+    padding-right: 300px !important;
+  }
+}
+.htb-items-row {
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+.htb-items-row:last-child {
+  padding-top: 70px;
+}
+.general-container img {
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.how-to-buy-item {
+  background-color: rgba(0, 0, 0, 0.3);
+  position: relative;
+  bottom: -30px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  padding-top: 58px;
+}
+@media (min-width: 768px) {
+  .how-to-buy-item {
+    max-width: 377px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    padding-bottom: 34px;
+    max-height: 203px;
+  }
+}
+@media (max-width: 992px) {
+  .how-to-buy-item {
+    max-width: 100%;
+    max-height: 100%;
+    padding: auto;
+  }
+}
+@media (max-width: 768px) {
+  .htb-items-row {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .how-to-buy-item {
+    max-width: 500px !important;
+    max-height: 100%;
+    padding: auto;
+    margin: auto;
+    margin-top: 20% !important;
+  }
+  .padding-section-300 h1 {
+    padding-top: 50px;
+    max-width: 500px;
+    margin: auto;
+  }
+  .easy-description {
+    max-width: 500px;
+    margin: auto;
+  }
+}
+.how-to-buy-item img {
+  border-radius: 0px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  position: absolute;
+  top: -80px;
+}
+.general-container .col-12.col-md-8 {
+  padding-left: 4%;
+  position: relative;
+  top: -20px;
+}
+/* Footer Section */
+footer {
+  background: rgb(7, 78, 62);
+  background: linear-gradient(
+    90deg,
+    rgba(7, 78, 62, 1) 0%,
+    rgba(1, 29, 23, 1) 100%
+  );
+  padding: 70px 0px;
+  border-top: 8px solid var(--color-yellow-boxa);
+}
+footer h3 {
+  font-family: var(--principal-font);
+  font-size: 1.25rem;
+  color: white;
+  font-weight: bold;
+}
+.text-container-footer h4 {
+  position: relative;
+  font-family: var(--principal-font);
+  font-size: 2.813rem;
+  font-weight: bold;
+  color: white;
+  z-index: 1;
+}
+footer .row.padding-section {
+  align-items: top;
+}
+.text-container-footer {
+  position: relative;
+}
+.community-footer {
+  position: relative;
+}
+.text-container-footer span {
+  border-top: 27px solid var(--color-green-decoration);
+  width: 112px;
+  display: block;
+  position: absolute;
+  bottom: 2px;
+  left: 27px;
+  z-index: 0;
+}
+footer a {
+  font-size: 0.875rem;
+}
+footer a,
+footer a:visited {
+  color: var(--color-yellow-boxa);
+}
+footer a:hover {
+  color: white;
+}
+footer .yellow-line-boxa {
+  position: absolute;
+  top: -15px;
+}
+footer .row .col-6:last-child h3 {
+  padding-top: 20px;
+}
+footer .row .col-6 h3 {
+  margin-bottom: 0px;
+}
+footer .padding-section div.col-12:not(:first-child) {
+  margin-top: 2%;
+}
+footer .join-button img {
+  position: relative;
+  bottom: 0.2rem;
+}
+@media (max-width: 768px) {
+  .container-fluid .padding-section .col-12 {
+    margin: auto;
+  }
+  footer .yellow-line-boxa {
+    display: none;
+  }
+  footer.container-fluid .row div.col-12 {
+    text-align: center;
+  }
+  .text-container-footer span {
+    display: none;
+  }
+}
+@media (min-width: 1420px) {
+  footer .padding-section {
+    padding-left: 300px;
+    padding-right: 300px;
+  }
+}
+@media (max-width: 1420px) and (min-width: 768px) {
+  footer .row.padding-section {
+    padding-left: 200px;
+  }
+}
+@media (min-width: 1420px) and (max-width: 1660px) {
+  footer .padding-section {
+    padding-right: 150px;
+  }
+}
