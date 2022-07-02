@@ -474,7 +474,12 @@ footer a:visited {
 footer a:hover {
   color: white;
 }
-footer .yellow-line-boxa {
+.yellow-line-boxa-footer {
+  display: block;
+  border-top: 7px solid var(--color-yellow-boxa);
+  width: 53px;
+}
+footer .yellow-line-boxa-footer {
   position: absolute;
   top: -15px;
 }
@@ -495,7 +500,7 @@ footer .join-button img {
   .container-fluid .padding-section .col-12 {
     margin: auto;
   }
-  footer .yellow-line-boxa {
+  footer .yellow-line-boxa-footer {
     display: none;
   }
   footer.container-fluid .row div.col-12 {
@@ -520,7 +525,4 @@ footer .join-button img {
   .padding-section {
     padding-right: 150px;
   }
-}
-span.yellow-line-boxa {
-  margin-left: 0px;
 }
