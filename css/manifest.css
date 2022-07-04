@@ -198,6 +198,14 @@ section.thinking-forward {
   color: var(--color-yellow-boxa);
   text-align: end;
 }
+.cropped-column > .yellow-title {
+  padding-top: 30px;
+}
+@media (max-width: 768px) {
+  .yellow-title {
+    text-align: center;
+  }
+}
 .yellow-box {
   min-width: 185px;
   padding: 38px 34px;
@@ -235,14 +243,37 @@ section.thinking-forward {
 .thinking-text-holder {
   width: 428px;
 }
+@media (max-width: 768px) {
+  .thinking-text-holder {
+    width: auto;
+  }
+}
 .top-space {
   padding-top: 20px;
 }
 .top-space-bigger {
   padding-top: 50px;
 }
+@media (max-width: 768px) {
+  .top-space {
+    padding-top: 10px;
+    padding-left: 40px !important;
+  }
+  .top-space-bigger {
+    padding-top: 10px;
+    padding-left: 40px !important;
+  }
+}
 .mt-own {
   padding-top: 8em;
+}
+@media (max-width: 768px) {
+  .mt-own {
+    padding-top: 3em;
+  }
+  .pb-own {
+    padding-bottom: 2em;
+  }
 }
 @media (min-width: 1660px) {
   .padding-300-section {
@@ -260,7 +291,6 @@ section.thinking-forward {
   gap: 16px;
 }
 .projects-wrapper {
-  width: calc(33.33% - 16px) !important;
   background-color: rgba(0, 0, 0, 0.3);
   border-radius: 3px;
   -webkit-border-radius: 3px;
@@ -268,6 +298,11 @@ section.thinking-forward {
   -ms-border-radius: 3px;
   -o-border-radius: 3px;
   padding: 20px 25px 60px 25px !important;
+}
+@media (min-width: 768px) {
+  .projects-wrapper {
+    width: calc(33.33% - 16px) !important;
+  }
 }
 .projects-wrapper h3 {
   color: white;
@@ -285,12 +320,23 @@ section.thinking-forward {
   color: white;
   padding-top: 50px;
 }
+@media (max-width: 768px) {
+  .benefits-paragraph {
+    padding-top: 0px;
+    padding-left: 40px;
+  }
+}
 .section-benefits {
   background-color: var(--color-green-background);
   background-image: url(/img/gradient-background.svg);
   background-position: 986px 21px;
   background-repeat: no-repeat;
   padding-bottom: 200px;
+}
+@media (max-width: 768px) {
+  .section-benefits {
+    padding-bottom: 3em;
+  }
 }
 section.boxa-explanation {
   background: url(/img/background-explanation-boxa.svg);
@@ -313,6 +359,12 @@ section.boxa-explanation {
 }
 .explanation-right {
   padding-right: 15.6% !important;
+}
+@media (max-width: 768px) {
+  .explanation-side {
+    padding-left: 12% !important;
+    padding-right: 12% !important;
+  }
 }
 .explanation-side p {
   color: white;
@@ -341,6 +393,23 @@ section.boxa-explanation {
   text-align: center;
   position: relative;
 }
+@media (max-width: 768px) {
+  .explanation-container {
+    align-content: center;
+  }
+  .explanation-wrapper {
+    width: 60% !important;
+    padding: 20px !important;
+  }
+  .explanation-wrapper img {
+    display: block;
+    margin: auto;
+    position: static !important;
+    /* right: 20%;
+    left: 20%;
+    bottom: 120px; */
+  }
+}
 .explanation-wrapper p {
   color: white;
   font-family: var(--principal-font);
@@ -361,11 +430,32 @@ section.boxa-explanation {
   gap: 16px;
   padding-top: 140px;
 }
+@media (max-width: 768px) {
+  .explanation-container {
+    flex-direction: column;
+  }
+}
 .cropped-column {
   padding-left: 40px;
 }
+@media (max-width: 768px) {
+  .cropped-column {
+    padding-left: 0px;
+  }
+  .cropped-column p {
+    padding-left: 40px;
+  }
+  .cropped-column > .text-green-line {
+    margin-left: 40px;
+  }
+}
 .cropped-column .yellow-title {
   text-align: left;
+}
+@media (max-width: 768px) {
+  .cropped-column .yellow-title {
+    text-align: center;
+  }
 }
 .cropped-column p {
   color: white;
@@ -379,6 +469,11 @@ section.boxa-explanation {
   background-position: 0px -300px;
   padding-top: 262px;
 }
+@media (max-width: 768px) {
+  .revolution-section {
+    padding-top: 17%;
+  }
+}
 .white-text-col {
   width: 40%;
   text-align: center;
@@ -387,8 +482,20 @@ section.boxa-explanation {
   font-weight: bold;
   padding-top: 25px;
 }
+@media (max-width: 768px) {
+  .white-text-col {
+    width: 100%;
+    text-align: left;
+    padding-left: 40px;
+  }
+}
 .image-row {
   display: flex;
+}
+@media (max-width: 768px) {
+  .image-row {
+    flex-direction: column;
+  }
 }
 .goal {
   background-color: var(--color-green-background);
@@ -524,5 +631,10 @@ footer .join-button img {
 @media (min-width: 1420px) and (max-width: 1660px) {
   .padding-section {
     padding-right: 150px;
+  }
+}
+@media (max-width: 768px) {
+  .para-16-left.thinking-text-holder {
+    /* padding: 10px 20px; */
   }
 }
