@@ -5,9 +5,11 @@
   --color-green-background: #0d1612;
   --color-green-decoration: #138e68;
 }
-p {
+p,
+ul {
   font-family: var(--principal-font);
-  font-size: 0.875rem;
+  font-size: 1rem;
+  color: white;
 }
 html {
   font-size: 100%;
@@ -115,7 +117,7 @@ a.nav-link {
   border-top: 27px solid var(--color-green-decoration);
   width: 231px;
   position: relative;
-  left: 130px;
+  left: 70px;
   bottom: 85px;
   z-index: 0;
 }
@@ -191,4 +193,54 @@ img[alt="Telegram"] {
 .navbar a.nav-link.active {
   color: white;
   font-weight: bold;
+}
+/* Title section */
+.real-estate-background {
+  padding-top: 7%;
+  padding-bottom: 2%;
+  background-color: var(--color-green-background);
+}
+@media (min-width: 1200px) {
+  .container-text-boxa {
+    padding-left: 10% !important;
+    padding-right: 7% !important;
+  }
+}
+.real-estate-wrapper {
+  display: flex;
+  max-width: 1460px;
+  margin-top: 5%;
+}
+.left-wrapper {
+  margin-left: 10%;
+  margin-right: 5%;
+}
+.right-wrapper {
+  margin-left: 5%;
+  margin-right: 10%;
+  flex-direction: row-reverse;
+}
+.real-estate-description {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.fill-img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.fill-img-container img {
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+.real-estate-description h3 {
+  color: white;
+}
+.real-estate-description h4 {
+  color: var(--color-yellow-boxa);
+}
+.real-estate-description {
+  background-color: rgba(13, 22, 18, 0.8);
 }
