@@ -199,6 +199,18 @@ img[alt="Telegram"] {
   padding-top: 7%;
   padding-bottom: 2%;
   background-color: var(--color-green-background);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  background-position: right -400px top 5%, left -400px top 65%,
+    right -400px top 100%;
+  background-image: url(/img/gradient-background.svg),
+    url(/img/gradient-background.svg), url(/img/gradient-background.svg);
+  background-repeat: no-repeat;
+}
+.real-estate-background > div {
+  align-self: center;
 }
 @media (min-width: 1200px) {
   .container-text-boxa {
@@ -243,4 +255,171 @@ img[alt="Telegram"] {
 }
 .real-estate-description {
   background-color: rgba(13, 22, 18, 0.8);
+}
+/* Become a partner section */
+.become-partner-sec {
+  background: rgb(251, 194, 61);
+  background: linear-gradient(
+    101deg,
+    rgba(251, 194, 61, 1) 57%,
+    rgba(191, 65, 0, 1) 100%
+  );
+}
+.become-partner {
+  padding-top: 6%;
+  padding-bottom: 8%;
+  background-color: var(--color-green-background);
+}
+.become-partner-sec img {
+  max-width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: 15px;
+  margin-top: -20px;
+  margin-bottom: -20px;
+}
+@media (max-width: 768px) {
+  .become-partner-sec img {
+    margin: auto !important;
+  }
+  .become-partner-sec h2,
+  .become-partner-sec p {
+    padding: 0px 40px;
+  }
+  .become-partner-sec .row {
+    padding: 20px 0px;
+  }
+}
+.become-partner-sec h2,
+.become-partner-sec p {
+  color: var(--color-green-background) !important;
+}
+@media (max-width: 1200px) {
+  .real-estate-wrapper {
+    flex-direction: column;
+  }
+  .real-estate-description {
+    padding-top: 50px;
+  }
+}
+/* Call Oportunities Section */
+@media (max-width: 1420px) {
+  .call-oportunities {
+    display: none !important;
+  }
+}
+.call-oportunities {
+  position: relative;
+  width: 100%;
+  background-color: var(--color-green-background);
+}
+.call-oportunities h3 {
+  color: #e9b439;
+  font-size: 2.68rem;
+  font-weight: bold;
+  font-family: var(--principal-font);
+}
+.call-oportunities .carousel-caption {
+  bottom: 45%;
+  padding-bottom: 0;
+}
+/* Footer Section */
+footer {
+  background: rgb(7, 78, 62);
+  background: linear-gradient(
+    90deg,
+    rgba(7, 78, 62, 1) 0%,
+    rgba(1, 29, 23, 1) 100%
+  );
+  padding: 70px 0px;
+  border-top: 8px solid var(--color-yellow-boxa);
+}
+footer h3 {
+  font-family: var(--principal-font);
+  font-size: 1.25rem;
+  color: white;
+  font-weight: bold;
+}
+.text-container-footer h4 {
+  position: relative;
+  font-family: var(--principal-font);
+  font-size: 2.813rem;
+  font-weight: bold;
+  color: white;
+  z-index: 1;
+}
+footer .row.padding-section {
+  align-items: top;
+}
+.text-container-footer {
+  position: relative;
+}
+.community-footer {
+  position: relative;
+}
+.text-container-footer span {
+  border-top: 27px solid var(--color-green-decoration);
+  width: 112px;
+  display: block;
+  position: absolute;
+  bottom: 2px;
+  left: 27px;
+  z-index: 0;
+}
+footer a {
+  font-size: 0.875rem;
+}
+footer a,
+footer a:visited {
+  color: var(--color-yellow-boxa);
+}
+footer a:hover {
+  color: white;
+}
+footer .yellow-line-boxa {
+  position: absolute;
+  top: -15px;
+}
+footer .row .col-6:last-child h3 {
+  padding-top: 20px;
+}
+footer .row .col-6 h3 {
+  margin-bottom: 0px;
+}
+footer .padding-section div.col-12:not(:first-child) {
+  margin-top: 2%;
+}
+footer .join-button img {
+  position: relative;
+  bottom: 0.2rem;
+}
+@media (max-width: 768px) {
+  .container-fluid .padding-section .col-12 {
+    margin: auto;
+  }
+  footer .yellow-line-boxa {
+    display: none;
+  }
+  footer.container-fluid .row div.col-12 {
+    text-align: center;
+  }
+  .text-container-footer span {
+    display: none;
+  }
+}
+@media (max-width: 1420px) and (min-width: 768px) {
+  footer .row.padding-section {
+    padding-left: 200px;
+  }
+}
+@media (min-width: 1420px) {
+  .padding-section {
+    padding-left: 300px;
+    padding-right: 300px;
+  }
+}
+@media (min-width: 1420px) and (max-width: 1660px) {
+  .padding-section {
+    padding-right: 150px;
+  }
 }
