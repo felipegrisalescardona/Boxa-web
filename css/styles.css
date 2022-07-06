@@ -159,6 +159,11 @@ a.nav-link {
     min-height: 816px;
   }
 }
+@media (min-width: 1921px) {
+  .boxa-invest-future {
+    background-size: cover;
+  }
+}
 .yellow-line-boxa {
   display: block;
   border-top: 7px solid var(--color-yellow-boxa);
@@ -240,6 +245,11 @@ p {
   background-color: rgba(0, 0, 0, 0.3);
   padding: 5% 0px;
 }
+.map img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
 /* placeholder text section */
 .placeholder-text-section {
   background-color: var(--color-green-background);
@@ -249,6 +259,12 @@ p {
   background-color: var(--color-green-background);
   padding-bottom: 16px;
 }
+@media (min-width: 1921px) {
+  .img-100 {
+    min-width: 100%;
+  }
+}
+
 /* boxa explanation section */
 .boxa-explanation {
   background-image: url(/img/bg_graph-uprising.svg);
@@ -492,6 +508,11 @@ section.leadership-section img {
   bottom: 40%;
   padding-bottom: 0;
 }
+@media (min-width: 1921px) {
+  .call-oportunities .carousel-caption {
+    bottom: 45%;
+  }
+}
 /* Footer Section */
 footer {
   background: rgb(7, 78, 62);
@@ -518,7 +539,7 @@ footer h3 {
   z-index: 1;
 }
 footer .row.padding-section {
-  align-items: top;
+  align-items: flex-start;
 }
 .text-container-footer {
   position: relative;

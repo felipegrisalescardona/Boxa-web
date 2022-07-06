@@ -321,6 +321,17 @@ img[alt="Telegram"] {
   position: relative;
   top: -20px;
 }
+@media (min-width: 1921px) {
+  .general-container .col-12.col-md-4 {
+    justify-content: end !important;
+  }
+  .boxa-top-banner {
+    background-size: cover;
+  }
+  .general-container .col-12.col-md-8 {
+    width: 900px !important;
+  }
+}
 /* Footer Section */
 footer {
   background: rgb(7, 78, 62);

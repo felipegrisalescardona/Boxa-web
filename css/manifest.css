@@ -356,6 +356,15 @@ section.boxa-explanation {
   background-repeat: no-repeat;
   background-color: var(--color-green-background);
 }
+@media (min-width: 1921px) {
+  section.boxa-explanation {
+    background-size: cover;
+  }
+  .revolution-section .img-fluid {
+    display: block;
+    margin-left: auto;
+  }
+}
 .boxa-explanation .row:first-child {
   gap: 20px;
 }
@@ -537,7 +546,7 @@ section.boxa-explanation {
   font-family: var(--principal-font);
 }
 .call-oportunities .carousel-caption {
-  bottom: 41%;
+  bottom: 45%;
   padding-bottom: 0;
 }
 /* Footer Section */

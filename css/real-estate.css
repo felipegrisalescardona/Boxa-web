@@ -93,6 +93,11 @@ a.nav-link {
     min-height: 673px;
   }
 }
+@media (min-width: 1921px) {
+  .boxa-top-banner {
+    background-size: cover;
+  }
+}
 .text-banner {
   padding-top: 17%;
   position: relative;

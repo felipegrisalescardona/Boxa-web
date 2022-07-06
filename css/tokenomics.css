@@ -203,6 +203,11 @@ img[alt="Telegram"] {
   color: white;
   font-weight: bold;
 }
+@media (min-width: 1921px) {
+  .boxa-top-banner {
+    background-size: cover;
+  }
+}
 /* Tokenomics Section */
 .tokenomics-section {
   background-color: var(--color-green-background);
@@ -428,6 +433,7 @@ h4 {
   grid-column: 3/5;
   grid-template-columns: repeat(4, 1fr);
   gap: 8px;
+  justify-content: end;
 }
 @media (max-width: 600px) {
   .squares-container {
@@ -451,6 +457,11 @@ h4 {
   }
   .gray-square-grid-container {
     grid-column: 1/4;
+  }
+}
+@media (min-width: 1921px) {
+  .tokenomics-section > div.row {
+    max-width: 1960px;
   }
 }
 /* Footer Section */
