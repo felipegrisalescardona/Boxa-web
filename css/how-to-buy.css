@@ -239,6 +239,11 @@ img[alt="Telegram"] {
 .htb-items-row:last-child {
   padding-top: 70px;
 }
+@media (max-width: 768px) {
+  .htb-items-row:last-child {
+    padding-top: 0px;
+  }
+}
 .general-container img {
   border-radius: 10px;
   -webkit-border-radius: 10px;
@@ -277,13 +282,14 @@ img[alt="Telegram"] {
   .htb-items-row {
     flex-direction: column;
     justify-content: center;
+    padding-top: 0px;
   }
   .how-to-buy-item {
     max-width: 500px !important;
     max-height: 100%;
     padding: auto;
     margin: auto;
-    margin-top: 20% !important;
+    margin-top: 30% !important;
   }
   .padding-section-300 h1 {
     padding-top: 50px;
@@ -303,6 +309,12 @@ img[alt="Telegram"] {
   -o-border-radius: 0px;
   position: absolute;
   top: -80px;
+}
+@media (max-width: 768px) {
+  .how-to-buy-item img {
+    border-radius: 0px;
+    left: 30%;
+  }
 }
 .general-container .col-12.col-md-8 {
   padding-left: 4%;
