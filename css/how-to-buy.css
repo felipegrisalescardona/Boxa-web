@@ -203,6 +203,11 @@ img[alt="Telegram"] {
   color: white;
   font-weight: bold;
 }
+@media (max-width: 768px) {
+  .boxa-top-banner {
+    margin-top: 65px;
+  }
+}
 /* Content Section */
 .content-section {
   background-color: var(--color-green-background);

@@ -98,6 +98,11 @@ a.nav-link {
     background-size: cover;
   }
 }
+@media (max-width: 768px) {
+  .boxa-top-banner {
+    margin-top: 65px;
+  }
+}
 .text-banner {
   padding-top: 17%;
   position: relative;
