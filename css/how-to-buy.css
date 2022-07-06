@@ -184,6 +184,17 @@ a.nav-link {
 .join-button img {
   padding-right: 10px;
 }
+.join-button:hover {
+  background-color: var(--color-green-decoration);
+  color: white;
+}
+.join-button img {
+  padding-right: 10px;
+}
+.join-button img.filter-img {
+  filter: invert(97%) sepia(0%) saturate(0%) hue-rotate(26deg) brightness(103%)
+    contrast(103%);
+}
 img[alt="Telegram"] {
   position: relative;
   bottom: 3px;

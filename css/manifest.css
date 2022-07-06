@@ -144,6 +144,17 @@ a.nav-link {
   background-color: rgba(0, 29, 20, 0.8);
   align-items: center;
 }
+.join-button:hover {
+  background-color: var(--color-green-decoration);
+  color: white;
+}
+.join-button img {
+  padding-right: 10px;
+}
+.join-button img.filter-img {
+  filter: invert(97%) sepia(0%) saturate(0%) hue-rotate(26deg) brightness(103%)
+    contrast(103%);
+}
 @media (max-width: 768px) {
   .join-buttons-section {
     flex-direction: column;
@@ -308,6 +319,7 @@ section.thinking-forward {
   color: white;
   font-family: var(--principal-font);
   font-size: 1.25rem;
+  font-weight: bold;
   padding-bottom: 20px;
 }
 .projects-wrapper p {
@@ -581,14 +593,13 @@ footer a:visited {
 footer a:hover {
   color: white;
 }
-.yellow-line-boxa-footer {
+footer .yellow-line-boxa {
   display: block;
+  position: relative;
+  top: -15px;
   border-top: 7px solid var(--color-yellow-boxa);
   width: 53px;
-}
-footer .yellow-line-boxa-footer {
-  position: absolute;
-  top: -15px;
+  right: 0px;
 }
 footer .row .col-6:last-child h3 {
   padding-top: 20px;
@@ -607,7 +618,7 @@ footer .join-button img {
   .container-fluid .padding-section .col-12 {
     margin: auto;
   }
-  footer .yellow-line-boxa-footer {
+  footer .yellow-line-boxa {
     display: none;
   }
   footer.container-fluid .row div.col-12 {

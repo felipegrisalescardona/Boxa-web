@@ -143,6 +143,17 @@ a.nav-link {
   background-color: var(--color-green-background);
   align-items: center;
 }
+.join-button:hover {
+  background-color: var(--color-green-decoration);
+  color: white;
+}
+.join-button img {
+  padding-right: 10px;
+}
+.join-button img.filter-img {
+  filter: invert(97%) sepia(0%) saturate(0%) hue-rotate(26deg) brightness(103%)
+    contrast(103%);
+}
 @media (max-width: 768px) {
   .join-buttons-section {
     flex-direction: column;
@@ -415,7 +426,7 @@ h4 {
 }
 .gray-square-grid-container {
   grid-column: 3/5;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 8px;
 }
 @media (max-width: 600px) {

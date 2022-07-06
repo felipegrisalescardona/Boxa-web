@@ -60,7 +60,6 @@ nav {
   padding: 0.5rem;
   font-size: 2.188rem;
   position: relative;
-  top: 4px;
   color: white;
   padding-left: 34px;
 }
@@ -188,8 +187,16 @@ a.nav-link {
   margin-bottom: 11px;
   margin-right: 20px;
 }
+.join-button:hover {
+  background-color: var(--color-green-decoration);
+  color: white;
+}
 .join-button img {
   padding-right: 10px;
+}
+.join-button img.filter-img {
+  filter: invert(97%) sepia(0%) saturate(0%) hue-rotate(26deg) brightness(103%)
+    contrast(103%);
 }
 img[alt="Telegram"] {
   position: relative;
@@ -224,6 +231,14 @@ p {
   .text-section-home p {
     width: 650px;
   }
+}
+/* Map Section */
+.map {
+  background-color: var(--color-green-background);
+}
+.map > .row {
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 5% 0px;
 }
 /* placeholder text section */
 .placeholder-text-section {
@@ -377,23 +392,21 @@ p {
   position: absolute;
   bottom: 0px;
 }
+.ml-auto {
+  margin-left: auto;
+}
 .leader-info-right {
   display: flex;
   text-align: right;
   justify-content: end;
 }
-.leader-info-right .content .yellow-line-boxa {
-  float: right;
-}
 .content .yellow-line-boxa {
   position: relative;
-  top: 4px;
 }
 .leader-name {
   font-size: 1rem;
   font-weight: bold;
   position: relative;
-  top: 4px;
 }
 .leader-role {
   font-size: 0.875rem;
@@ -476,7 +489,7 @@ section.leadership-section img {
   font-family: var(--principal-font);
 }
 .call-oportunities .carousel-caption {
-  bottom: 45%;
+  bottom: 40%;
   padding-bottom: 0;
 }
 /* Footer Section */
