@@ -3,7 +3,4 @@ RewriteEngine on
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.html -f
 RewriteRule ^(.*)$ $1.html [NC,L]
-RewriteEngine On
- RewriteEngine /
- RewriteCond %{THE_REQUEST} ^GET\ /folder/(.*)
- RewriteRule ^folder/(.*) http://www.example.com/index.php/$1 [L,R=301]
+RewriteRule ^html/(.*)$ /$1 [L,NC,R=302]
