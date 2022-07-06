@@ -188,7 +188,7 @@ img[alt="Telegram"] {
   position: relative;
   bottom: 3px;
 }
-.navbar a.nav-link.active {
+.navbar-nav li.active {
   color: white;
   font-weight: bold;
 }

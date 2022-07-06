@@ -80,7 +80,7 @@ a.nav-link {
 .nav-item a:hover {
   color: var(--color-yellow-boxa);
 }
-.navbar a.nav-link.active {
+.navbar-nav li.active {
   color: white;
   font-weight: bold;
 }
@@ -631,10 +631,5 @@ footer .join-button img {
 @media (min-width: 1420px) and (max-width: 1660px) {
   .padding-section {
     padding-right: 150px;
-  }
-}
-@media (max-width: 768px) {
-  .para-16-left.thinking-text-holder {
-    /* padding: 10px 20px; */
   }
 }
