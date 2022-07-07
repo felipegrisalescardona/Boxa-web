@@ -387,6 +387,11 @@ h4 {
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
 }
+@media (max-width: 600px) {
+  .gray-square-grid {
+    min-height: 128px;
+  }
+}
 .caption-16 * {
   font-family: var(--principal-font);
   color: white;
@@ -446,7 +451,7 @@ h4 {
     width: auto;
     gap: 8px;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(8, 1fr);
+    grid-template-rows: repeat(6, 1fr) repeat(2, 2fr);
   }
   .yellow-square-grid {
     grid-column: 1/4;
@@ -462,6 +467,15 @@ h4 {
   }
   .gray-square-grid-container {
     grid-column: 1/4;
+  }
+  .gray-square-grid-container {
+    justify-content: start;
+    grid-template-columns: repeat(auto-fit, 130px);
+  }
+}
+@media (max-width: 372px) {
+  .squares-container {
+    grid-template-rows: repeat(7, 1fr) repeat(1, 4fr);
   }
 }
 @media (min-width: 1921px) {
