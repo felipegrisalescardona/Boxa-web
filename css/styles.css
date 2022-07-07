@@ -416,7 +416,6 @@ p {
   display: block;
 }
 .text-black-bg .container {
-  /* background-color: rgba(0, 0, 0, 0.3); */
   padding: 5% 15%;
 }
 /* Leadership Section */
@@ -523,6 +522,14 @@ section.leadership-section img {
 .become-partner-sec h2,
 .become-partner-sec p {
   color: var(--color-green-background) !important;
+}
+.img-fit-col {
+  width: 100%;
+  vertical-align: bottom;
+  padding: 0 !important;
+}
+a.col-md-2 {
+  padding: 0px;
 }
 /* Call Oportunities Section */
 @media (max-width: 1420px) {
