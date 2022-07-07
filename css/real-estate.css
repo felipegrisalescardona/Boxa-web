@@ -263,12 +263,18 @@ img[alt="Telegram"] {
   align-items: center;
   overflow: hidden;
 }
-.fill-img-container img {
+/* .fill-img-container img {
   flex-shrink: 0;
   min-width: 100%;
   min-height: 100%;
+} */
+.fill-img-container {
+  max-height: 550px;
 }
-.fill-img-container .carousel {
+.carousel-inner .carousel-item img {
+  object-fit: cover;
+  object-position: center;
+  max-height: 100%;
 }
 .real-estate-description h3 {
   color: white;
