@@ -1,6 +1,6 @@
 $(document).ready(function () {
-  $("#header-boxa-container").load("/html/common/header-boxa.html");
-  $("#footer-boxa-container").load("/html/common/footer-boxa.html");
+  $("#header-boxa-container").load("/common/header-boxa.html");
+  $("#footer-boxa-container").load("/common/footer-boxa.html");
   var chargenow = setTimeout(addActiveClass, 50);
 });
 function addActiveClass() {
