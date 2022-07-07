@@ -1,2 +1,20 @@
+:root {
+  --color-green-background: #0d1612;
+}
+#copyfooter {
+  background-color: var(--color-green-background);
+}
+@media (min-width: 1200px) {
+  .copysection {
+    padding-left: 270px;
+  }
+}
+.copysection p {
+  color: white;
+  font-family: "Candara";
+  margin: 0;
+  font-size: 0.875rem;
+}
 .copysection {
+  justify-content: space-between;
 }

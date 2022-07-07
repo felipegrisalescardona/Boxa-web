@@ -1,7 +1,8 @@
 $(document).ready(function () {
   $("#header-boxa-container").load("/common/header-boxa.html");
   $("#footer-boxa-container").load("/common/footer-boxa.html");
-  var chargenow = setTimeout(addActiveClass, 150);
+  $("#copyfooter").load("/common/copy-footer.html");
+  var chargenow = setTimeout(addActiveClass, 500);
 });
 function addActiveClass() {
   var itemselected;
