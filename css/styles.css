@@ -527,9 +527,10 @@ section.leadership-section img {
 .become-partner-sec {
   background: rgb(251, 194, 61);
   background: linear-gradient(
-    101deg,
-    rgba(251, 194, 61, 1) 57%,
-    rgba(191, 65, 0, 1) 100%
+    90deg,
+    rgba(251, 194, 61, 1) 0%,
+    rgba(251, 194, 61, 1) 50%,
+    rgba(215, 116, 24, 1) 100%
   );
 }
 .become-partner {
