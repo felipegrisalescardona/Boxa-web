@@ -301,6 +301,44 @@ p {
     min-width: 100%;
   }
 }
+.map > .row > .col-12.col-md-7 {
+  position: relative;
+}
+.pin-location-1 {
+  position: absolute;
+  top: 25%;
+  left: 10%;
+}
+.pin-location-2 {
+  position: absolute;
+  bottom: 30%;
+  left: 28%;
+}
+.pin-location-3 {
+  position: absolute;
+  top: 16%;
+  left: 47%;
+}
+.pin-location-4 {
+  position: absolute;
+  top: 43%;
+  left: 51.5%;
+}
+.pin-location-5 {
+  position: absolute;
+  top: 18%;
+  right: 25%;
+}
+.pin-location-6 {
+  position: absolute;
+  bottom: 36%;
+  right: 11%;
+}
+@media (min-width: 1920px) {
+  .map > .row > .col-12.col-md-7 {
+    width: 1120px;
+  }
+}
 
 /* boxa explanation section */
 .boxa-explanation {
