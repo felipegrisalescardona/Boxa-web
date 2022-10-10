@@ -47,6 +47,31 @@ nav {
     rgba(1, 29, 23, 1) 100%
   );
 }
+.coming-soon-button {
+  font-family: var(--principal-font);
+  background-color: var(--color-yellow-boxa);
+  color: var(--color-green-button);
+  font-weight: bold;
+  padding: 5px 20px;
+  font-size: 1.45rem;
+  border: none;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  box-shadow: var(--color-yellow-boxa) 0px 1px 15px;
+}
+.coming-soon-button:hover {
+  color: white;
+  background-color: var(--color-green-decoration);
+}
+.center-text-placeholder {
+  text-align: center;
+}
+.nav-link {
+  margin-top: 16px;
+}
 .navbar-collapse {
   justify-content: flex-end;
 }

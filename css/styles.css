@@ -35,7 +35,6 @@ h2 {
 @media (min-width: 1420px) {
   nav {
     padding-left: 300px !important;
-    padding-right: 300px !important;
   }
 }
 nav {
@@ -46,6 +45,9 @@ nav {
     rgba(7, 78, 62, 1) 0%,
     rgba(1, 29, 23, 1) 100%
   );
+}
+.nav-link {
+  margin-top: 16px;
 }
 .navbar-collapse {
   justify-content: flex-end;
@@ -110,13 +112,18 @@ a.nav-link {
   bottom: 40px;
   z-index: 1;
 }
+@media (max-width: 1000px) {
+  .text-banner h2 {
+    font-size: 2rem !important;
+  }
+}
 .green-line-boxa {
   display: block;
   border-top: 27px solid var(--color-green-decoration);
   width: 231px;
   position: relative;
   left: 330px;
-  bottom:230px;
+  bottom: 230px;
   z-index: 0;
 }
 @media (max-width: 590px) {
@@ -226,6 +233,28 @@ p {
 .text-section-home {
   padding-top: 60px;
   padding-bottom: 80px;
+}
+.coming-soon-button {
+  font-family: var(--principal-font);
+  background-color: var(--color-yellow-boxa);
+  color: var(--color-green-button);
+  font-weight: bold;
+  padding: 5px 20px;
+  font-size: 1.45rem;
+  border: none;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  box-shadow: var(--color-yellow-boxa) 0px 1px 15px;
+}
+.coming-soon-button:hover {
+  color: white;
+  background-color: var(--color-green-decoration);
+}
+.center-text-placeholder {
+  text-align: center;
 }
 .text-section-home button {
   font-family: var(--principal-font);
