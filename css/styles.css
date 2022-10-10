@@ -116,7 +116,7 @@ a.nav-link {
   width: 231px;
   position: relative;
   left: 330px;
-  bottom: 90px;
+  bottom:230px;
   z-index: 0;
 }
 @media (max-width: 590px) {
