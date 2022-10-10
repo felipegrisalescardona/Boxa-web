@@ -7,7 +7,7 @@
 }
 p {
   font-family: var(--principal-font);
-  font-size: 0.875rem;
+  font-size: 1.1rem;
 }
 html {
   font-size: 100%;
@@ -69,7 +69,13 @@ nav {
   text-align: center;
 }
 .nav-link {
-  margin-top: 16px;
+  margin-top: 13px;
+}
+.center-text-placeholder {
+  text-align: center;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  color: white;
 }
 .navbar-collapse {
   justify-content: flex-end;
@@ -348,7 +354,7 @@ section.thinking-forward {
 }
 .projects-wrapper p {
   color: white;
-  font-size: 0.875rem;
+  font-size: 1.1rem;
   font-family: var(--principal-font);
 }
 .benefits-paragraph {

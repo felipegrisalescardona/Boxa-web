@@ -102,7 +102,12 @@ a.nav-link {
   text-align: center;
 }
 .nav-link {
-  margin-top: 16px;
+  margin-top: 13px;
+}
+.center-text-placeholder {
+  text-align: center;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
 }
 /* Top banner */
 .boxa-top-banner {
